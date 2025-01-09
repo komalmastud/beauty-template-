@@ -1,0 +1,122 @@
+.portal-container {
+  font-family: Arial, sans-serif;
+  background-color: #fef3fb; /* Light pink background */
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 10px; /* Add padding for better spacing */
+  width: 604px; /* A4 width in pixels */
+  height: 800px; /* A4 height in pixels */
+  box-sizing: border-box; /* Include padding in the dimensions */
+  overflow: hidden; /* Prevent content from spilling outside */
+}
+
+.content {
+  width: 100%; /* Full width of the A4 container *
+  /
+  height: 100%; /* Full height of the A4 container */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  color: black;
+}
+
+.sub-heading-one {
+  font-size: 50px;
+  color: #a22b6d;
+  margin-top: 10px;
+  text-align: center;
+}
+.line {
+  width: 100%; /* Increase the width of the line */
+  border: 1px solid #140b12;
+  margin: 20px auto; /* Center the line horizontally */
+  margin-left: -1%;
+  margin-top: -60px;
+}
+
+.services-images-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.services-section {
+  width: 50%; /* Left side */
+}
+
+.our-services {
+  font-size: 22px;
+  font-weight: bold;
+  color: #140b12;
+  margin-left: -100px;
+}
+
+.images-section {
+  width: 50%;
+  position: relative; /* Allows precise positioning */
+}
+ul {
+  padding-left: 20px;
+  list-style-type: none;
+  margin-left: 0;
+  /* Remove default margin */
+  text-align: left; /* Make sure the content aligns left */
+}
+
+li {
+  top: 10px;
+  font-size: 20px;
+  line-height: 1.2; /* Adjust line-height to control space between items */
+  color: #140b12;
+}
+
+.image-bottom {
+  position: absolute;
+  bottom: -330px; /* Adjust to position the image vertically */
+  right: -100px; /* Adjust to position the image horizontally */
+  width: 400px; /* Increased width */
+  height: 500px; /* Increased height */
+}
+
+.image-top {
+  position: absolute;
+  top: -200px; /* Adjust vertical position as needed */
+  left: 40%; /* Center horizontally */
+  transform: rotate(-60deg); /* Center the image */
+  width: 350px; /* Increased width */
+  height: 450px; /* Increased height */
+}
+
+.sub-heading-two {
+  font-size: 34px;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -50px;
+}
+
+.cosmetics p {
+  color: #92868e;
+  text-align: center;
+  margin-left: 18px;
+  margin-top: -10px;
+}
+
+.information {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.information h4 {
+  font-size: 14px;
+  margin: 5px 0;
+}
